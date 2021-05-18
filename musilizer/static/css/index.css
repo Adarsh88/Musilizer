@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900;700;1000&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b262c;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8em;
+  margin-top: 2em;
+}
+
+.navbar h5 {
+  font-size: medium;
+  color: #bbe1fa;
+}
+
+.navbar h5 a:link {
+  color: #bbe1fa;
+}
+.navbar h5 a:visited {
+  color: #bbe1fa;
+}
+
+.navbar h5 a:hover {
+  color: #3282b8;
+}
+
+.navbar button {
+  background-color: #3282b8;
+  border-radius: 10px;
+  width: 12em;
+  height: 4em;
+  margin-top: -2em;
+  cursor: pointer;
+}
+
+.hero-content {
+  position: absolute;
+  margin-left: 8em;
+  margin-top: 4em;
+  padding: 0;
+  overflow: hidden;
+  animation: transitionIn 1s;
+}
+
+.hero-content h1 {
+  font-size: 72px;
+  color: #bbe1fa;
+  font-weight: 900;
+}
+
+.hero-content button {
+  background-color: #3282b8;
+  border: none;
+  border-radius: 10px;
+  width: 12em;
+  height: 4em;
+  margin-top: -2em;
+  cursor: pointer;
+}
+
+.hero-content button:hover {
+  background-color: #0f4c75;
+}
+
+.hero-content button h3 {
+  justify-content: center;
+  text-align: center;
+  color: #bbe1fa;
+}
+
+.hero-image {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 6em;
+  margin-top: 5em;
+  animation: transitionIn 1s;
+}
+
+@media (max-width: 1300px) {
+  .hero-image {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .hero-content {
+    justify-content: center;
+    text-align: center;
+    transform: translate(-15%, -10%);
+  }
+
+  .hero-content h1 {
+    font-size: 50px;
+  }
+
+  .hero-content button {
+    background-color: #3282b8;
+    border: none;
+    border-radius: 10px;
+    width: 12em;
+    height: 4em;
+    margin-top: 1.2em;
+    cursor: pointer;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}

@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=" {% static 'css/register.css' %} " />
+    <title>Musilizer registration</title>
+  </head>
+  <body>
+    <div class="register-container">
+      <h1>
+        Make an account to access <br />
+        your visualizations
+      </h1>
+      <form action="">
+        <h2>Username</h2>
+        <input
+          type="text"
+          class="username"
+          placeholder="Enter your username"
+        /><br />
+        <h2>Email address</h2>
+        <input
+          type="text"
+          class="email"
+          placeholder="Enter your email address"
+        /><br />
+        <h2>Password</h2>
+        <input
+          type="password"
+          class="password"
+          placeholder="Enter a unique password"
+        /><br />
+        <button type="submit" value="Register">REGISTER</button>
+      </form>
+      <h5>Have an account?<a href="/login"> Log in!</a></h5>
+    </div>
+  </body>
+</html>
