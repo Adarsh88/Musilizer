@@ -29,10 +29,15 @@ This is the project created for Tinkerhub's BFH(Build From Home) 2021. Musilizer
 ### Here we can upload a new mp3 file for visualization. 
 ![upload](https://user-images.githubusercontent.com/44509204/119488666-72855d00-bd78-11eb-8317-2371486a0b3e.png)
 
-# 5. Success page 
+# 6. Success page 
 
 ### If the upload was successfull we get the code for retrieving our music visualization. 
 ![success](https://user-images.githubusercontent.com/44509204/119488684-74e7b700-bd78-11eb-9d62-f9dd867f1b9d.png)
+
+# 7. Retrieve 
+
+### Then we go to retrieve page and enter our music code.
+![retrieve](https://user-images.githubusercontent.com/44509204/119488702-77e2a780-bd78-11eb-9508-e146712642cb.png)
 
 
 ## Team members
