@@ -47,5 +47,5 @@ This is the project created for Tinkerhub's BFH(Build From Home) 2021. Musilizer
 ## Team members
 1. Adarsh Narayanan [https://github.com/Adarsh88]
 2. Vishnudas [https://github.com/DCHACKZzz]
-3. Delan VS [https://github.com/Delan-VS]
+3. Delan V Shyjo [https://github.com/Delan-VS]
 
