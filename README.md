@@ -19,6 +19,11 @@ This is the project created for Tinkerhub's BFH(Build From Home) 2021. Musilizer
 ### The account is authenticated using the Django authentication. 
 ![register](https://user-images.githubusercontent.com/44509204/119488638-6bf6e580-bd78-11eb-9c64-0ac6e4387554.png)
 
+# 4. Home page
+
+### Here we can choose whether to retrieve our music visualization or upload a new mp3 file. 
+![home](https://user-images.githubusercontent.com/44509204/119488651-6ef1d600-bd78-11eb-8106-3a91e6473ead.png)
+
 
 
 
