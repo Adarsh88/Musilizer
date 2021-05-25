@@ -34,11 +34,15 @@ This is the project created for Tinkerhub's BFH(Build From Home) 2021. Musilizer
 ### If the upload was successfull we get the code for retrieving our music visualization. 
 ![success](https://user-images.githubusercontent.com/44509204/119488684-74e7b700-bd78-11eb-9d62-f9dd867f1b9d.png)
 
-# 7. Retrieve 
+# 7. Retrieve page
 
 ### Then we go to retrieve page and enter our music code.
 ![retrieve](https://user-images.githubusercontent.com/44509204/119488702-77e2a780-bd78-11eb-9508-e146712642cb.png)
 
+# 7. PLay our music visualization 
+
+### Enjoy your music visualization over here. We can play another song also by mentioning the retrieval code
+![play](https://user-images.githubusercontent.com/44509204/119488724-7fa24c00-bd78-11eb-8bea-a1c2970ca2ea.png)
 
 ## Team members
 1. Adarsh Narayanan [https://github.com/Adarsh88]
