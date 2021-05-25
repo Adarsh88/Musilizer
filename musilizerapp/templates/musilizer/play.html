@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Play song</title>   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/play.css' %}">
+</head>
+
+<body>
+    {% block content %}
+    <div class="navbar">
+      <h5><a href="home">BACK TO HOME</a></h5>
+    </div>
+    {% for song in song_entry %}
+    <center>
+    <div class = "container-fluid">
+          <h1>{{ song.file_name }}</h1>
+          <canvas id='canvas' width="480" height="350"></canvas>
+          <br><br>
+              <audio source id='audio' src="/media/{{ song.audio_file }}" controls=""></audio>
+          <script src ="{% static 'js/main_js.js'%}"></script>
+          <h3><a href="retrieve">PLAY ANOTHER SONG</a></h3>
+    </div>
+    </center>
+    {% endfor %}
+    {% endblock %}
+</body>
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-46794744-6', 'auto');
+      ga('send', 'pageview');
+</script>
+</html>

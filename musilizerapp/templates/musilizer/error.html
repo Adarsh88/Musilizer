@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Success</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/error.css' %}">
+</head>
+
+<body>
+    {% block content %}
+    <center>
+    <div class="navbar">
+      <h5><a href="home">BACK TO HOME</a></h5>
+    </div>
+      <h1>Oops, check your file format and try again!</h1>
+    </div>
+    <center>
+    {% endblock %}
+</body>
+</html>

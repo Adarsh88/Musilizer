@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=" {% static 'css/index.css' %} " />
+    <title>Musilizer</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <h5><a href="/login">LOGIN</a></h5>
+    </div>
+    <div class="hero-content">
+      <h1>
+        Make your own <br />
+        music visualizer<br />
+        for free
+      </h1>
+      <a href="/register/"
+        ><button class="join"><h3>Register now</h3></button></a
+      >
+    </div>
+    <div class="hero-image">
+      <img
+        src="{% static 'assets/musicc.svg' %}"
+        alt="Music image"
+        height="435px"
+        class="music"
+      />
+    </div>
+  </body>
+</html>

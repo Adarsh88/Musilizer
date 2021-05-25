@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900;700;1000&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b262c;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: #bbe1fa;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.login-container {
+  justify-content: center;
+  text-align: center;
+  margin-top: 14em;
+  animation: transitionIn 1s;
+}
+
+
+.login-container form h2 {
+  color: #bbe1fa;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.login-container form .username {
+  width: 22em;
+  height: 3em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.login-container form .password {
+  width: 22em;
+  height: 3em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.login-container form button {
+  margin-top: 2em;
+  width: 22em;
+  height: 3em;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #3282b8;
+  border: none;
+  color: #bbe1fa;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-container form button:hover {
+  background-color: #0f4c75;
+}
+
+.login-container h5 {
+  color: #bbe1fa;
+}
+
+.login-container a {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.login-container a:link {
+  color: #bbe1fa;
+}
+.login-container a:visited {
+  color: #bbe1fa;
+}
+
+.login-container a:hover {
+  color: #3282b8;
+}
+
+.login-container .forgot {
+  margin-top: -1em;
+}
+
+.login-container .forgot-a {
+  font-weight: inherit;
+}
+
+@media (max-width: 600px) {
+  .login-container h1 {
+    font-size: 30px;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
