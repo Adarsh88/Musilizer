@@ -3,10 +3,10 @@
 # Musilizer
 This is the project created for Tinkerhub's BFH(Build From Home) 2021. Musilizer helps us to visualize music in real time. We can upload mp3 music files and can see visualizations in the browser itself.
 
-# Workflow of Musilizer
+# How Musilizer works?
 # 1. Index Page 
 
-### Here is the landing page of Muslizer.
+### So when you first open the website you will land here. There will be two options for you whether to register a new account or login to your exisiting account
 ![index](https://user-images.githubusercontent.com/44509204/119488616-66999b00-bd78-11eb-9bcd-4f142d41906e.png)
 
 # 2. Register Page
