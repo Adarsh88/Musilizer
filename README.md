@@ -22,7 +22,7 @@ This is the project created for Tinkerhub's BFH(Build From Home) 2021. Musilizer
 # 4. Home page
 
 ### Here we can choose whether to retrieve our music visualization or upload a new mp3 file. 
-![home](https://user-images.githubusercontent.com/44509204/119488651-6ef1d600-bd78-11eb-8106-3a91e6473ead.png)
+![Screenshot (85)](https://user-images.githubusercontent.com/44509204/119638931-c2c1f500-be34-11eb-8581-0d0deea3875c.png)
 
 # 5. Upload page
 
