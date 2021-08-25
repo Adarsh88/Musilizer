@@ -52,7 +52,7 @@ This is the project created for Tinkerhub's BFH(Build From Home) 2021 by team BL
 
 ## Bluefox Team members
 1. Adarsh Narayanan [https://github.com/Adarsh88]
-2. Vishnudas [https://github.com/DCHACKZzz]
+2. Vishnudas [https://github.com/vishnudas-bluefox]
 3. Delan V Shyjo [https://github.com/Delan-VS]
 
 ## Team ID
